@@ -19,7 +19,7 @@ from Anime_3D import generate_3D_animation
 func_num=int(input('select function [1.Ackley,2.Alpine,3.EggCrate,4.EggHolder,]:'))
 
 if func_num==1:
-    func=opfunu.name_based.Bird()
+    func=opfunu.name_based.Ackley02()
 elif func_num==2:
     func=opfunu.name_based.Alpine02()
 elif func_num==3:
